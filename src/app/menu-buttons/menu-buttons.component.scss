@@ -1,0 +1,64 @@
+.button-container{
+  img{
+    width: 95px;
+    height: 90px;
+    margin-top: 5px;
+    z-index: 1;
+  }
+  label{
+    margin-top: 15px;
+    z-index: 1;
+  }
+}
+
+.red{
+  background-color: rgba(185, 50, 50, 0.74);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  width: 200px;
+  height: 150px;
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+
+}
+.blue{
+  background-color: rgba(48, 48, 209, 0.74);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  width: 200px;
+  height: 150px;
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+
+}
+.yellow{
+  background-color: rgba(221, 221, 59, 0.74);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  width: 200px;
+  height: 150px;
+  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+
+}
+.green{
+  background-color: rgba(81, 189, 81, 0.74);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  width: 200px;
+  height: 150px;
+  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+}

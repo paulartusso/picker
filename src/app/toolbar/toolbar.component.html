@@ -1,0 +1,16 @@
+<div class="toolbar">
+  <img src="../assets/pipette.png" alt="">
+  <h1>
+    {{title}}
+  </h1>
+  <div class="select-container">
+    <img *ngIf="flags=='arg'" src="../assets/argentina.png" alt="">
+    <img *ngIf="flags!='arg'" src="../assets/italy.png">
+    <img *ngIf="flags!='arg'" src="../assets/united-kingdom.png" alt="">
+    <select name="language" id="">
+      <option value="es">ES</option>
+      <option value="it">IT</option>
+      <option value="en">EN</option>
+    </select>
+  </div>
+</div>
